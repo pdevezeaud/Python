@@ -1,0 +1,15 @@
+
+
+    list : tableau d’éléments indexés de 0 à n exclu auquel on peut ajouter ou retirer des éléments
+
+    dict : tableau d’éléments indexés par des types immuables auquel on peut ajouter ou retirer des éléments
+
+    tuple : tableau d’éléments indexés de 0 à n exclu qu’on ne peut pas modifier
+
+    set : tableau d’éléments uniques non indexés
+
+    frozenset : set immuables (non modifiable)
+
+    deque : presque équivalent à une listes, la différent vient de l’implémentation, les mêmes opérations n’auront pas les mêmes coûts (deque = liste chaînée)
+
+site web python : https://python.sdv.univ-paris-diderot.fr/05_boucles_comparaisons/#52-comparaisons
