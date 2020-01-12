@@ -1,4 +1,6 @@
-
+#git remote add origin https://github.com/pdevezeaud/Python.git
+#git push -u origin master
+# 
 # def affiche_tableau(tableau):
 #     print("   |   |   ")
 #     print(' '+ tableau[7] + ' | ' + tableau[8] + ' | ' + tableau[9])
