@@ -23,7 +23,6 @@
 l=10*[0]
 print(l)
 for i in range(len(l)):
-    print(len(l))
     l[i]=10*[0]
 print(l)
 l[0][0]=1
