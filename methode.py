@@ -16,16 +16,27 @@ class Cercle (object):
         calcul = Cercle.pi * self.rayon **2   
         return print(calcul)
 
+    def perimetre(self):
+        p = 2*Cercle.pi*self.rayon
+        return print(p)
+
 # methode pour redefinir le rayon
-    def definirrayon(self,rayon):
+    def definirRayon(self,rayon): #une sorte se setter
         self.rayon = rayon
+
+    def obtenirRayon(self):
+        return print(self.rayon)
+       
 
 #instanciation de mon_cercle
 mon_cercle = Cercle(12)
 
-#appel de la methode surface
+#appel de la methode  calcul surface surface
 mon_cercle.surface()
 
-mon_cercle.definirrayon(5)
+mon_cercle.obtenirRayon()
 
-mon_cercle.surface()
+mon_cercle.definirRayon(2.8)
+mon_cercle.obtenirRayon()
+mon_cercle.perimetre()
+
