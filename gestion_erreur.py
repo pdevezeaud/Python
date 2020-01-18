@@ -1,6 +1,26 @@
 
 # iNSTRUCTION POUR GERER LES EXCEPTIONS (BASE)
 
+'''
+Gérer les exceptions : try /except (+ else, finally)
+
+type d'exception : ValueError
+                   NameError
+                   TypeError
+                   ZeroDivisioçnError
+                   OSError
+                   AssertionError
+
+exemple
+try:
+    age = input("quel age as tu ?")
+    age = int(age)
+
+    asset age > 25 # Je veux que age soit plus grand que 25
+except AssertionError:
+    print("J'ai attrapé l'exception")
+'''
+
 # ageUtilisateur = input("Quel âge as tu ?")
 
 # try:
