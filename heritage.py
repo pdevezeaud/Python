@@ -36,4 +36,12 @@ print(isinstance(avion1,Voiture))
 
 issubclass(<classe_fille>, <classe_mere>): verifie qu'il herite bien de la classe mere
 
+def __str__(self) --> renvoi un prin de l'objet
+
+def __len__(self)
+
+def __del__(self)
+    return self.pages
+
+
 '''
