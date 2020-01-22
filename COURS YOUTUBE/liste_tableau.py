@@ -35,5 +35,9 @@ if "potion" in inventaire4:
 else:
     print("Je n'ai pas cette article")
 
+print("*******************************")
+
+#22:46
+
 
 
