@@ -37,7 +37,46 @@ else:
 
 print("*******************************")
 
-#22:46
+#ajout d'element dans iventaire 4
+inventaire5 = ["renault","renault","renault","citroen","fiat","porshe","civic","hyundai"]
+print(inventaire5[:])
+inventaire5.append("ferrari")
+print(inventaire5[:])
+inventaire5.insert(1,"sherman")
+print(inventaire5[:])
+
+print("*******************************")
+
+#suppression d'un element dans la liste
+inventaire5.remove("sherman")
+print(inventaire5[:])
+#autre methode
+del inventaire5[0]
+print(inventaire5[:])
+
+objet_supprimer = inventaire5.index("citroen")
+del inventaire5[objet_supprimer]
+print(inventaire5[:])
+
+print("*******************************")
+#Trier des elements dans un tableau
+inventaire5.sort()
+print(inventaire5[:])
+
+print("*******************************")
+#compter ne nombre d'un meme elements
+
+print("Nombre de renault :",inventaire5.count("renault"))
+
+print("*******************************")
+
+# 30;08
+
+
+
+
+
+
 
 
 
