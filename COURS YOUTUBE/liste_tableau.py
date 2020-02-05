@@ -70,7 +70,20 @@ print("Nombre de renault :",inventaire5.count("renault"))
 
 print("*******************************")
 
-# 30;08
+inventaire6 = ["Bonjour","à","tous"]
+phrase = " ".join(inventaire6)
+print(phrase)
+
+# Pour dupliquer des listes il faut importer le module copy
+# import copy
+
+import copy
+liste1 = ["orc","elfe","troll"]
+liste2 = copy.deepcopy(liste1)
+liste2.append("Humain")
+print(liste2)
+
+#40:48
 
 
 
