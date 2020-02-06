@@ -84,6 +84,16 @@ liste2.append("Humain")
 print(liste2)
 
 #40:48
+print("*******************************")
+for race in liste1:
+    print(race)
+
+#autre methode
+for race in enumerate(liste1):
+    print(race)
+
+#len(<list>) = retourne la taille(nombre d'éléments)
+
 
 
 
