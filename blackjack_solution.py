@@ -8,7 +8,7 @@ jeton = 100
 
 pari = 1
 
-rejouer_phrase = "Entrez 'd" pour donner les cartes à nouveau, ou 'q' pour quitter"
+rejouer_phrase = "Entrez 'd' pour donner les cartes à nouveau, ou 'q' pour quitter"
 
 # symbol carte
 symbole = ('Coeur','Carreau', 'Trèfle','Pique')
