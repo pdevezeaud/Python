@@ -20,11 +20,11 @@ print(" ")
 print("* * * * * * * * * * * * ")
 choix = input("Veuillez entrer votre choix ? :")
 
-if choix == 1:
+if choix == "1":
     degnumber = input("Entrez le nombre pour la conversion : ")
     print(degRad(degnumber))
 
-elif choix == 2:
+elif choix == "2":
     radnumber = input("Entrez le nombre pour la conversion : ")
     print(radDeg(radnumber))
 
