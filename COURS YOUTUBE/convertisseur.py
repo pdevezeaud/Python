@@ -9,19 +9,21 @@ def radDeg(rad):
     calcul = (rad*180) / math.pi
     return calcul
 
-print("Convertisseur Degré en Radian et de Radian en degré")
-print()
-print ("Veuillez choisir le type de calcul")
-print("(1) : conversion Radian vers Degré")
-print("(2) : Conversion Degré vers Radian")
-print("(3) : Quitter le programme")
-print()
-print("* * * * * * * * * * * * ")
 
 loop = 1
 while loop == 1:
 
-    choix = float(input("Veuillez entrer votre choix ? :"))
+
+    print("Convertisseur Degré en Radian et de Radian en degré")
+    print()
+    print ("Veuillez choisir le type de calcul")
+    print("(1) : conversion Radian vers Degré")
+    print("(2) : Conversion Degré vers Radian")
+    print("(3) : Quitter le programme")
+    print()
+    print("* * * * * * * * * * * * ")
+
+    choix = float(input("Veuillez entrer votre choix de calcul  ? :"))
 
     if choix == 1:
         degnumber = float(input("Entrez le nombre de Radian pour la conversion en Degré : "))
