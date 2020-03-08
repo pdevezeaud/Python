@@ -1,14 +1,11 @@
 import math 
 
-
 def degRad(deg):
-    degnumber = input("Entrez le nombre pour la conversion : ")
     calcul = (deg * math.pi) /180
     return calcul
 
 
-def radDeg(rad):
-    
+def radDeg(rad):   
     calcul = (rad*180) / math.pi
     return calcul
 
@@ -20,15 +17,26 @@ print(" ")
 print("* * * * * * * * * * * * ")
 choix = input("Veuillez entrer votre choix ? :")
 
-if choix == "1":
-    degnumber = input("Entrez le nombre pour la conversion : ")
-    print(degRad(degnumber))
 
-elif choix == "2":
-    radnumber = input("Entrez le nombre pour la conversion : ")
-    print(radDeg(radnumber))
+while choix != "Q":
 
-elif choix == "Q":
-    print("Vous quittez le programme de conversion.")
+    if choix == "1":
+        degnumber = float(input("Entrez le nombre pour la conversion : "))
+        print(degRad(degnumber))
+        
 
- 
+    elif choix == "2":
+        radnumber = float(input("Entrez le nombre pour la conversion : "))
+        print(radDeg(radnumber))
+        
+        
+    
+    else choix == "Q":
+        print ("fin de programme")
+    
+
+
+
+
+
+    
