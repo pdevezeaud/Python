@@ -83,6 +83,8 @@ while continuer_partie:
 # pause systeme
 os.systeme("pause")
 
+
+
     
 
     
