@@ -77,6 +77,8 @@ qtt_a_retirer = 7
 fruits_stockes = [15,3,18,11]
 sorti = [nb_fruits - qtt_a_retirer for nb_fruits in fruits_stockes if nb_fruits > qtt_a_retirer]
 print(sorti)
+
+
     
 
         
